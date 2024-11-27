@@ -1,14 +1,16 @@
-Usage With Claude Desktop:
+Usage on Claude Desktop (MacOS):  
 
- "weather": {
-      "command": "uv",
-      "args": [
-        "--directory",
-        "/path/to/your/server/",
-        "run",
-        "weather"
-      ],
-      "env": {
-        "OPENWEATHER_API_KEY": "your_api_key"
-      }
-    
+{
+  "mcpServers": {
+   "weather": {
+         "command": "uv",
+         "args": [
+           "--directory",
+           "/path/to/server",
+           "run",
+           "weather"
+         ],
+         "env": {
+           "OPENWEATHER_API_KEY": "your_api_key"
+         }
+       }
